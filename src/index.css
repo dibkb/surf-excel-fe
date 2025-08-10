@@ -216,4 +216,7 @@
   ::-moz-selection {
     background-color: #31b8c6;
   }
+  .hide-scrollbar {
+    scrollbar-width: none;
+  }
 }
