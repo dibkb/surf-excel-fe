@@ -17,7 +17,7 @@ function App() {
               placeholder="Ask me anything..."
               className="w-full max-w-2xl h-28 resize-none focus-visible:ring-0 focus-visible:ring-offset-0 border-zinc-700 focus-visible:border-zinc-600 shadow-none focus-ring-0 !bg-perplexity-text-color text-white/80 placeholder:text-zinc-500 rounded-xl border-[1px] manrope-font !text-base"
             />
-            <Button className="absolute right-3 bottom-3 bg-teal-500 hover:bg-teal-400 transition-colors animate-in fade-in-0 duration-300">
+            <Button className="absolute rounded-lg right-3 bottom-3 bg-teal-500 hover:bg-teal-400 transition-colors animate-in fade-in-0 duration-300">
               <MoveRightIcon className="w-4 h-4" />
             </Button>
           </div>
