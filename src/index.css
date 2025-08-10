@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -198,5 +205,15 @@
   body {
     @apply bg-background text-foreground;
     letter-spacing: var(--tracking-normal);
+  }
+
+  /* Custom text selection colors */
+  ::selection {
+    background-color: var(--color-teal-900);
+    color: var(--color-teal-400);
+  }
+
+  ::-moz-selection {
+    background-color: #31b8c6;
   }
 }
